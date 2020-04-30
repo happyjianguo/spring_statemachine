@@ -1,10 +1,10 @@
-package com.skyblue.statemachine.config.SecondDemo;
+package com.skyblue.statemachine.config.Order;
 
 import java.util.Iterator;
 import java.util.List;
 
-import com.skyblue.statemachine.config.FirstDemo.OrderEvents;
-import com.skyblue.statemachine.config.FirstDemo.OrderStates;
+import com.skyblue.statemachine.config.OrderSingle.OrderEvents;
+import com.skyblue.statemachine.config.OrderSingle.OrderStates;
 import org.springframework.messaging.Message;
 import org.springframework.statemachine.StateMachine;
 import org.springframework.statemachine.access.StateMachineAccess;

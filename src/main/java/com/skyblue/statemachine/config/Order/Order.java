@@ -1,4 +1,4 @@
-package com.skyblue.statemachine.config.SecondDemo;
+package com.skyblue.statemachine.config.Order;
 /**
  * 订单实体
  *

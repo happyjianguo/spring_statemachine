@@ -1,11 +1,10 @@
-package com.skyblue.statemachine.config.SecondDemo;
+package com.skyblue.statemachine.config.Order;
 import java.util.EnumSet;
 
-import com.skyblue.statemachine.config.FirstDemo.OrderEvents;
-import com.skyblue.statemachine.config.FirstDemo.OrderStates;
+import com.skyblue.statemachine.config.OrderSingle.OrderEvents;
+import com.skyblue.statemachine.config.OrderSingle.OrderStates;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.annotation.Bean;
-import org.springframework.statemachine.StateContext;
 import org.springframework.statemachine.StateMachine;
 import org.springframework.statemachine.action.Action;
 import org.springframework.statemachine.config.StateMachineBuilder;

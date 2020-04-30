@@ -1,9 +1,7 @@
-package com.skyblue.statemachine.config.FirstDemo;
+package com.skyblue.statemachine.config.OrderSingle;
 
 import java.util.EnumSet;
 
-import com.skyblue.statemachine.config.FirstDemo.OrderEvents;
-import com.skyblue.statemachine.config.FirstDemo.OrderStates;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Configuration;

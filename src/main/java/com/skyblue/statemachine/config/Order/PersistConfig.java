@@ -1,6 +1,6 @@
-package com.skyblue.statemachine.config.SecondDemo;
-import com.skyblue.statemachine.config.FirstDemo.OrderEvents;
-import com.skyblue.statemachine.config.FirstDemo.OrderStates;
+package com.skyblue.statemachine.config.Order;
+import com.skyblue.statemachine.config.OrderSingle.OrderEvents;
+import com.skyblue.statemachine.config.OrderSingle.OrderStates;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

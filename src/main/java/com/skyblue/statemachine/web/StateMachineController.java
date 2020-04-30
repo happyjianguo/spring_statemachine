@@ -18,11 +18,11 @@ import com.skyblue.statemachine.config.Form.Form;
 import com.skyblue.statemachine.config.Form.FormEvents;
 import com.skyblue.statemachine.config.Form.FormStateMachineBuilder;
 import com.skyblue.statemachine.config.Form.FormStates;
-import com.skyblue.statemachine.config.SecondDemo.InMemoryStateMachinePersist;
-import com.skyblue.statemachine.config.SecondDemo.Order;
-import com.skyblue.statemachine.config.FirstDemo.OrderEvents;
-import com.skyblue.statemachine.config.SecondDemo.OrderStateMachineBuilder;
-import com.skyblue.statemachine.config.FirstDemo.OrderStates;
+import com.skyblue.statemachine.config.Order.InMemoryStateMachinePersist;
+import com.skyblue.statemachine.config.Order.Order;
+import com.skyblue.statemachine.config.OrderSingle.OrderEvents;
+import com.skyblue.statemachine.config.Order.OrderStateMachineBuilder;
+import com.skyblue.statemachine.config.OrderSingle.OrderStates;
 
 @RestController
 @RequestMapping("/statemachine")

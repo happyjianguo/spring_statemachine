@@ -1,9 +1,9 @@
-package com.skyblue.statemachine.config.SecondDemo;
+package com.skyblue.statemachine.config.Order;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.skyblue.statemachine.config.FirstDemo.OrderEvents;
-import com.skyblue.statemachine.config.FirstDemo.OrderStates;
+import com.skyblue.statemachine.config.OrderSingle.OrderEvents;
+import com.skyblue.statemachine.config.OrderSingle.OrderStates;
 import org.springframework.statemachine.StateMachineContext;
 import org.springframework.statemachine.StateMachinePersist;
 import org.springframework.stereotype.Component;

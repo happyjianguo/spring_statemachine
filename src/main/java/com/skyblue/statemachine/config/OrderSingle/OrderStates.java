@@ -1,4 +1,4 @@
-package com.skyblue.statemachine.config.FirstDemo;
+package com.skyblue.statemachine.config.OrderSingle;
 
 public enum OrderStates {
 	UNPAID, // 待支付
